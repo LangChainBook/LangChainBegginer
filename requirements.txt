@@ -1,0 +1,12 @@
+langchain_openai
+langchain_core
+beautifulsoup4
+python-dotenv
+langchain
+pinecone-client
+langchain_community
+langchain
+asyncio
+requests
+streamlit
+

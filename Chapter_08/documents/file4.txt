@@ -1,0 +1,136 @@
+Python is a programming language that is widely used in web applications, software development, data science, and machine learning (ML). Developers use Python because it is efficient and easy to learn and can run on many different platforms.
+
+What is Python? Executive Summary
+What is Python? Executive Summary
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+
+Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.
+
+See also some comparisons between Python and other languages.
+
+What is Python? it’s Uses and Applications
+Last Updated : 26 Jun, 2024
+Python is a programming language that is interpreted, object-oriented, and considered to be high-level too. What is Python? Python is one of the easiest yet most useful programming languages which is widely used in the software industry. People use Python for Competitive Programming, Web Development, and creating software. Due to its easiest syntax, it is recommended for beginners who are new to the software engineering field. Its demand is growing at a very rapid pace due to its vast use cases in Modern Technological fields like Data Science, Machine learning, and Automation Tasks. For many years now, it has been ranked among the top Programming languages.
+
+What is Python
+Table of Content
+What is Python?
+History of Python
+Python Syntax
+Features of Python
+Advantages and Disadvantages of Python
+Uses and Applications of Python
+Today Python is used in all kinds of development from game development, basic programming, and scripting to large and complex software development. It has a large community support and is rich in the library, having all kinds of frameworks for backend, frontend and you name it python has it all. So, as a technical enthusiast, you will definitely come across Python in this technological journey of yours, so you should know basic fundamentals of Python to get a better understanding of it and for that, you can learn about the history of Python, its features, advantages and disadvantages, and applications in this article.
+
+What is Python?
+Python is a set of instructions that we give in the form of a Program to our computer to perform any specific task. It is a Programming language having properties like it is interpreted, object-oriented and it is high-level too. Due to its beginner-friendly syntax, it became a clear choice for beginners to start their programming journey. The major focus behind creating it is making it easier for developers to read and understand, also reducing the lines of code.
+
+History of Python
+Python was created in 1980s by Guido van Rossum. During his research at the National Research Institute for Mathematics and Computer Science in the Netherlands, he created Python – a super easy programming language in terms of reading and usage. The first ever version was released in the year 1991 which had only a few built-in data types and basic functionality.
+
+Later, when it gained popularity among scientists for numerical computations and data analysis, in 1994, Python 1.0 was released with extra features like map, lambda, and filter functions. After that adding new functionalities and releasing newer versions of Python came into fashion. 
+
+Python 1.5 released in 1997
+Python 2.0 released in 2000
+Python 3.0 in 2008 brought newer functionalities
+The latest version of Python, Python 3.11 was released in 2022.
+
+Newer functionalities being added to Python makes it more beneficial for developers and improved its performance. In recent years, Python has gained a lot of popularity and is a highly demanding programming language. It has spread its demand in various fields which includes machine learning, artificial intelligence, data analysis, web development, and many more giving you a high-paying job. To get more in depth knowledge on Python, explore Python Free course a self paced guide to learn Python easily.
+
+Python Syntax
+Syntax in a programming language is a standard way of expressing values or statements which every programming language follows. 
+
+To print a statement- print(“Hello World”) 
+
+Output: Hello World
+
+A basic Python program to print a statement:
+
+
+# code
+print("Hello World")
+
+Must Read: Python – Output using print() Function
+
+If you’re unsure of which platform to choose for practicing Python, here are some of the Top 10 Python IDEs in 2023 which have the best IDEs you can use as a beginner.
+
+Features of Python
+Python has plenty of features that make it the most demanding and popular. Let’s read about a few of the best features that Python has:
+
+Easy to read and understand
+Interpreted language
+Object-oriented programming language
+Free and open-source
+Versatile and Extensible
+Multi-platform
+Hundreds of libraries and frameworks
+Flexible, supports GUI
+Dynamically typed
+Huge and active community
+These also state the reasons why you should choose Python to learn as a beginner, or also to use it for development purposes as a developer, and a lot more.
+
+Advantages and Disadvantages of Python
+Every programming language comes with benefits and limitations as well. These benefits and limitations can be treated as advantages and disadvantages. Python also has a few disadvantages over many advantages. Let’s discuss each here:
+
+Advantages of Python:
+Easy to learn, read, and understand
+Versatile and open-source
+Improves productivity
+Supports libraries
+Huge library
+Strong community
+Interpreted language
+Disadvantages of Python:
+Restrictions in design
+Memory inefficient
+Weak mobile computing
+Runtime errors
+Slow execution speed
+Uses and Applications of Python
+Python being so popular and so technologically advanced has multiple use cases and has real-life applications. Some of the most common Python applications which are very common are discussed below.
+
+1. Web Development
+Developers prefer Python for web Development, due to its easy and feature-rich framework. They can create Dynamic websites with the best user experience using Python frameworks. Some of the frameworks are -Django, for Backend development and Flask, for Frontend development. Most internet companies, today are using Python framework as their core technology, because this is not only easy to implement but is highly scalable and efficient. Web development is one of the top Applications of Python, which is widely used across the industry to create highly efficient websites.
+
+2. Data Science
+Data scientists can build powerful AI models using Python snippets. Due to its easily understandable feature, it allows developers to write complex algorithms. Data Science is used to create models and neural networks which can learn like human brains but are much faster than a single brain. It is used to extract patterns from past data and help organizations take their decisions. Also, companies use this field to make their future investments.
+
+3. Web Scrapping and Automation
+You can also automate your tasks using Python with libraries like BeautifulSoup, pandas, matplotlib, etc. for scraping and web automation. Businesses use AI bots as customer support to cater to the needs of the customers, it not only saves their money but also proved to be providing a better customer experience. Web scrapping helps the business in analyzing their data and other competitors’ data to increase their share in the market. It will help the organizations, make their data organize and scale business by finding patterns from the scrapped data.
+
+4. CAD
+You can also use Python to work on CAD (computer-aided designs) designs, to create 2D and 3D models digitally. There is dedicated CAD software available in the market, but you can also develop CAD applications using Python also. You can develop a Python-based CAD application according to your customizability and complexity, depending on your project. Using Python for CAD development allows easy deployment and integration across cross-platforms.
+
+5. Artificial Intelligence and Machine Learning
+Using libraries like Pandas, and TensorFlow, experts can work on data analysis and machine learning applications for statistical analysis, data manipulation, etc. Python is one of the most used Programming languages in this field. It is worth saying that Python is the language of AI and ML. Python has contributed a lot to this field with its huge collection of libraries and large community support. Also, the field of Artificial intelligence and Machine learning is exponentially evolving, hence the use of Python is also going to increase a lot.
+
+6. Game Development
+Python can also be used by developers to build games using Pygame to develop 2D and 3D games. Some of the popular games built using Python are Pirates of the Caribbean, Battlefield 2, etc. Python has a library named Pygame, which is used to build interesting games. Since the gaming industry is gaining a lot market in recent years the use of these kinds of development has increased a lot in recent past. Also, it is very easy to build games using this library, you can also try to build some basic games.
+
+Refer: Top 10 Python Applications in Real World
+
+Want to know the salary of a Python developer?
+– The average salary of a Python developer in India is 6 LPA
+
+Conclusion
+Python has a lot of reasons which make it a more popular and highly demanding programming language. High Community support and a large number of libraries and frameworks in Python make it the best choice for developers and beginners to choose it single handily. Python has use cases in web Development, Game Development, Automation, and technologies like AI, ML, and Data Analytics. Python is releasing its never version and adding new functions for the betterment of developers. But it has some limitations as well as discussed in the article like it is slow in execution, so Competitive Programmer prefer it less. But overall it is growing rapidly and has a very bright future ahead for this Programming language.
+
+Must Read
+Python Tutorial
+Top 7 Python Developer Tools
+Best Way To Start Learning Python – A Complete Roadmap
+FAQs
+What is Python and why it is used?
+Python is a very popular programming language used in software development for different purposes like website development including frontend and backend both. It is also used for scripting, take automation, web scraping, and programmer also used it for competitive programming for problem solving.
+
+What is Python for example?
+Python is an open-source programming language, having features like object-oriented, interpreted and high-level too. It is a dynamically typed programming language, which is easy to use with redable and user-friendly syntax. It has huge libraries, frameworks and large community support.
+
+What are the basics of Python?
+Python has different and easy syntax than other programming language which is similar to english language. You can learn it syntax and basic fundamentals very easily which include
+
+1. Data Types
+2. loop
+3. if-else statements
+4. functions
+5. OOPs concepts

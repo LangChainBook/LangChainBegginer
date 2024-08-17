@@ -1,0 +1,93 @@
+LangChain is a framework for developing applications powered by large language models (LLMs).
+
+LangChain simplifies every stage of the LLM application lifecycle:
+
+Development: Build your applications using LangChain's open-source building blocks and components. Hit the ground running using third-party integrations and Templates.
+Productionization: Use LangSmith to inspect, monitor and evaluate your chains, so that you can continuously optimize and deploy with confidence.
+Deployment: Turn any chain into an API with LangServe.
+
+What is LangChain?
+LangChain is an open source framework for building applications based on large language models (LLMs). LLMs are large deep-learning models pre-trained on large amounts of data that can generate responses to user queries—for example, answering questions or creating images from text-based prompts. LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. For example, developers can use LangChain components to build new prompt chains or customize existing templates. LangChain also includes components that allow LLMs to access new data sets without retraining.
+
+Why is LangChain important?
+LLMs excel at responding to prompts in a general context, but struggle in a specific domain they were never trained on. Prompts are queries people use to seek responses from an LLM. For example, an LLM can provide an answer to how much a computer costs by providing an estimate. However, it can't list the price of a specific computer model that your company sells. 
+
+To do that, machine learning engineers must integrate the LLM with the organization’s internal data sources and apply prompt engineering—a practice where a data scientist refines inputs to a generative model with a specific structure and context. 
+
+LangChain streamlines intermediate steps to develop such data-responsive applications, making prompt engineering more efficient. It is designed to develop diverse applications powered by language models more effortlessly, including chatbots, question-answering, content generation, summarizers, and more.
+
+The following sections describe benefits of LangChain.
+
+Repurpose language models
+With LangChain, organizations can repurpose LLMs for domain-specific applications without retraining or fine-tuning. Development teams can build complex applications referencing proprietary information to augment model responses. For example, you can use LangChain to build applications that read data from stored internal documents and summarize them into conversational responses. You can create a Retrieval Augmented Generation (RAG) workflow that introduces new information to the language model during prompting. Implementing context-aware workflows like RAG reduces model hallucination and improves response accuracy. 
+
+Simplify AI development
+LangChain simplifies artificial intelligence (AI) development by abstracting the complexity of data source integrations and prompt refining. Developers can customize sequences to build complex applications quickly. Instead of programming business logic, software teams can modify templates and libraries that LangChain provides to reduce development time. 
+
+Developer support
+LangChain provides AI developers with tools to connect language models with external data sources. It is open-source and supported by an active community. Organizations can use LangChain for free and receive support from other developers proficient in the framework.
+
+How does LangChain work?
+With LangChain, developers can adapt a language model flexibly to specific business contexts by designating steps required to produce the desired outcome. 
+
+Chains
+Chains are the fundamental principle that holds various AI components in LangChain to provide context-aware responses. A chain is a series of automated actions from the user's query to the model's output. For example, developers can use a chain for:
+
+Connecting to different data sources.
+Generating unique content.
+Translating multiple languages.
+Answering user queries. 
+Links
+Chains are made of links. Each action that developers string together to form a chained sequence is called a link. With links, developers can divide complex tasks into multiple, smaller tasks. Examples of links include:
+
+Formatting user input. 
+Sending a query to an LLM. 
+Retrieving data from cloud storage.
+Translating from one language to another.
+In the LangChain framework, a link accepts input from the user and passes it to the LangChain libraries for processing. LangChain also allows link reordering to create different AI workflows. 
+
+Overview
+To use LangChain, developers install the framework in Python with the following command:
+
+pip install langchain 
+
+Developers then use the chain building blocks or LangChain Expression Language (LCEL) to compose chains with simple programming commands. The chain() function passes a link's arguments to the libraries. The execute() command retrieves the results. Developers can pass the current link result to the following link or return it as the final output. 
+
+Below is an example of a chatbot chain function that returns product details in multiple languages.
+
+chain([
+
+retrieve_data_from_product_database().
+
+send_data_to_language_model().
+
+   format_output_in_a_list().
+
+  translate_output_in_target_language()
+
+])
+
+
+
+What are the core components of LangChain?
+Using LangChain, software teams can build context-aware language model systems with the following modules. 
+
+LLM interface
+LangChain provides APIs with which developers can connect and query LLMs from their code. Developers can interface with public and proprietary models like GPT, Bard, and PaLM with LangChain by making simple API calls instead of writing complex code.
+
+Prompt templates
+Prompt templates are pre-built structures developers use to consistently and precisely format queries for AI models. Developers can create a prompt template for chatbot applications, few-shot learning, or deliver specific instructions to the language models. Moreover, they can reuse the templates across different applications and language models. 
+
+Agents
+Developers use tools and libraries that LangChain provides to compose and customize existing chains for complex applications. An agent is a special chain that prompts the language model to decide the best sequence in response to a query. When using an agent, developers provide the user's input, available tools, and possible intermediate steps to achieve the desired results. Then, the language model returns a viable sequence of actions the application can take.  
+
+Retrieval modules
+LangChain enables the architecting of RAG systems with numerous tools to transform, store, search, and retrieve information that refine language model responses. Developers can create semantic representations of information with word embeddings and store them in local or cloud vector databases. 
+
+Memory
+Some conversational language model applications refine their responses with information recalled from past interactions. LangChain allows developers to include memory capabilities in their systems. It supports:
+
+Simple memory systems that recall the most recent conversations. 
+Complex memory structures that analyze historical messages to return the most relevant results. 
+Callbacks
+Callbacks are codes that developers place in their applications to log, monitor, and stream specific events in LangChain operations. For example, developers can track when a chain was first called and errors encountered with callbacks. 
