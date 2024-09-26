@@ -1,7 +1,13 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
+from dotenv import load_dotenv
+import os
 
-model = ChatOpenAI()
+# Load environment variables
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
+
+model = ChatOpenAI(model="gpt-4", api_key=api_key)
 
 # Chain 1: Generate a recipe
 prompt1 = ChatPromptTemplate.from_template("Write a recipe for {dish}:")

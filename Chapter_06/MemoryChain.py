@@ -2,8 +2,14 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
+from dotenv import load_dotenv
+import os
 
-model = ChatOpenAI()
+# Load environment variables
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
+
+model = ChatOpenAI(model="gpt-4", api_key=api_key)
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful AI assistant."),
     MessagesPlaceholder(variable_name="history"),

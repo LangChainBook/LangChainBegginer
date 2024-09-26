@@ -2,6 +2,12 @@ from langchain_openai import ChatOpenAI
 from langchain.agents import create_openai_tools_agent, AgentExecutor
 from langchain_core.tools import tool
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
 
 @tool
 def search(query: str) -> str:
@@ -9,7 +15,7 @@ def search(query: str) -> str:
     # In a real scenario, this would be an actual search function
     return f"Results for: {query}. AGI has been achieved !"
 
-model = ChatOpenAI()
+model = ChatOpenAI(model="gpt-4", api_key=api_key)
 tools = [search]
 
 # Create a prompt template
