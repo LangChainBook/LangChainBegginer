@@ -7,13 +7,15 @@ This repository contains the code examples for the book "LangChain and RAG for B
 - **Title**: LangChain and RAG for Beginners: A Powerful Approach to Generative AI
 - **Author**: Karel Hernandez Rodriguez
 - **Available Formats**:
-- English Edition
+- English Edition 
   - [Kindle Edition] (https://www.amazon.com/Python-LangChain-RAG-Beginners-Applications-ebook/dp/B0DBZ9C7PF/)
+                    - https://play.google.com/store/books/details?id=93QhEQAAQBAJ
   - [Hardcover] (https://www.amazon.com/LangChain-RAG-Beginners-Powerful-Generative/dp/B0DCTRQFBL/)
   - [Paperback] (https://www.amazon.com/LangChain-RAG-Beginners-Powerful-Generative/dp/B0DBZTWLFV/)
 
 - Spanish Edition
-  - [Kindle Edition] (https://www.amazon.com/dp/B0DHGY19S3)
+  - [Kindle Edition] (https://www.amazon.com/dp/B0DHGY19S3
+                    - https://play.google.com/store/books/details?id=Cu4iEQAAQBAJ)
  
 
 ## About This Repository
