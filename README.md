@@ -63,5 +63,5 @@ The repository is organized as follows:
 - `Chapter_17/`: Enhancing Max with YouTube Search and Subtitle Scraping
 - `Chapter_18/`: File Saving Capabilities and Wikipedia Search
 
-Each chapter directory contains Python scripts and Jupyter notebooks that demonstrate the concepts discussed in the book.
+Each chapter directory contains Python scripts that demonstrate the concepts discussed in the book.
 
