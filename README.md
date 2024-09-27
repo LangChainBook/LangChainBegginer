@@ -1,6 +1,6 @@
 # LangChain and RAG for Beginners
 
-This repository contains the code examples for the book "LangChain and RAG for Beginners: A Powerful Approach to Generative AI" by Karel Hernandez Rodriguez.
+This repository contains the code examples for the book "LangChain for RAG Beginners: Build Your First Powerful AI GPT Agent" by Karel Hernandez Rodriguez.
 
 ## Book Information
 
