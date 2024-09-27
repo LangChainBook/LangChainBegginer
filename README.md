@@ -46,8 +46,6 @@ Before running the code examples, ensure you have the following installed:
 
 The repository is organized as follows:
 
-- `Chapter_01/`: Welcome to LangChain Python for RAG Beginners
-- `Chapter_02/`: LangChain Basic Concepts and Key Components
 - `Chapter_03/`: Setting Up Your Environment
 - `Chapter_04/`: Working with Chat Models
 - `Chapter_05/`: Creating Prompt Templates
